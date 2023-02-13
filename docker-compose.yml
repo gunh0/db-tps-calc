@@ -1,0 +1,11 @@
+version: '3'
+services:
+  tps-test-postgres:
+    image: postgres:15.2
+    container_name: postgres_test
+    environment:
+      POSTGRES_DB: testdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: secretpassword
+    ports:
+      - "5432:5432"
