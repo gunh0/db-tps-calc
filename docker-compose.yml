@@ -9,3 +9,10 @@ services:
       POSTGRES_PASSWORD: secretpassword
     ports:
       - "5432:5432"
+  tps-test-mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: secretpassword
+      MYSQL_DATABASE: testdb
+    ports:
+      - "3306:3306"

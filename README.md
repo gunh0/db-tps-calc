@@ -1,1 +1,3 @@
 # db-tps-calc
+
+TPS stands for "Transactions Per Second." In the context of databases, TPS refers to the number of transactions (such as INSERT, UPDATE, DELETE, etc.) that a database system can handle in a single second. The TPS metric is an important indicator of a database system's performance and scalability. High TPS values indicate that a database system can handle a large number of transactions efficiently, while low TPS values may indicate that the system is becoming a bottleneck in processing transactions.
